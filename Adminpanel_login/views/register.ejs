@@ -1,0 +1,36 @@
+<%-include('layouts/user_login/header.ejs')%>
+<div class="login-container">
+    <h3 class="text-center">Register</h3>
+    <% if(msg) { %>
+        <div class="alert alert-warning text-center">
+            <%=msg%>
+        </div>
+    <% } %>
+    <form action="/auth/register" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password"name="password" placeholder="Password">
+        </div>
+        <div class="mb-3">
+            <label for="Confirm_password" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="Confirm_password" name="Confirm_password" placeholder="Confirm_Password">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label" for="rememberMe">Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+    <div class="text-center mt-3">Already a member?
+        <a href="/login">Login now</a>
+    </div>
+</div>
+<%-include('layouts/user_login/footer.ejs')%>

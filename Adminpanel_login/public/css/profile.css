@@ -1,0 +1,70 @@
+/* Style for the profile container */
+/* .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #9ed0db; 
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40; 
+}
+
+
+.container-fluid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+ */
+/* Profile name and email styling */
+.container-fluid h3 {
+    font-size: 1.5rem;
+    color: #899199; /* Dark gray text color */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Profile Container */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ced5d6; /* Light background color */
+    padding: 20px;
+}
+
+/* Profile Header */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40; /* Dark text color */
+}
+
+/* Profile Image */
+.container-fluid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Profile Name and Email */
+.container-fluid h3 {
+    font-size: 1.5rem;
+    color: #495057; /* Dark gray text color */
+    text-align: center;
+    margin-bottom: 10px;
+}
